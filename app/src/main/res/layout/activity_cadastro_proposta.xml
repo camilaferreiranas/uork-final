@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroProposta">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título da proposta "
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/enviarProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <EditText
+        android:id="@+id/tituloProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <EditText
+        android:id="@+id/descricaoProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Explique o trabalho que será feito"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orçamento"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <EditText
+        android:id="@+id/orcamentoProposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <EditText
+        android:id="@+id/localProposta"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Endereço do serviço"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Educação, limpeza, etc."
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de serviço"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+</android.support.constraint.ConstraintLayout>

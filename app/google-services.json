@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993291714914",
+    "firebase_url": "https://uork-versaofinal.firebaseio.com",
+    "project_id": "uork-versaofinal",
+    "storage_bucket": "uork-versaofinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993291714914:android:8f9d9cb0544dbef1",
+        "android_client_info": {
+          "package_name": "com.uork.uork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993291714914-n6jo126vi0cckdp0otcn6kb5fan3iqc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uork.uork",
+            "certificate_hash": "39a91a42aec00687ac0e6bd13147d050f0b3d42e"
+          }
+        },
+        {
+          "client_id": "993291714914-d6ml9su3h0opgjqvvi0rk56c2j2fed7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8qu2ZEGXWATPWYujK3CY7cTgnGyPp6u0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993291714914-d6ml9su3h0opgjqvvi0rk56c2j2fed7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
