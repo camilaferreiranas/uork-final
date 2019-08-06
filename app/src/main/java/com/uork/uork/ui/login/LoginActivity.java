@@ -1,8 +1,11 @@
 package com.uork.uork.ui.login;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
@@ -18,11 +21,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.uork.uork.CadastroEmpresa;
+import com.uork.uork.CadastroUsuario;
 import com.uork.uork.R;
 import com.uork.uork.ui.login.LoginViewModel;
 import com.uork.uork.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
+    Button btnCadastro, loginFacebook, loginGoogle;
 
     private LoginViewModel loginViewModel;
 
@@ -38,6 +44,11 @@ public class LoginActivity extends AppCompatActivity {
         final EditText passwordEditText = findViewById(R.id.password);
         final Button loginButton = findViewById(R.id.login);
         final ProgressBar loadingProgressBar = findViewById(R.id.loading);
+        Button btnCadastro = findViewById(R.id.btnCadastro);
+        Button loginFacebook = findViewById(R.id.loginFacebook);
+        Button loginGoogle = findViewById(R.id.loginGoogle);
+
+
 
         loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
             @Override
@@ -115,6 +126,37 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+   /* public void abrirCadastroUsuario(View view) {
+        Intent intent = new Intent(this, CadastroUsuario.class);
+        startActivity(intent);
+    }
+
+    public void abrirCadastroEmpresa(View view) {
+        Intent intent = new Intent (this, CadastroEmpresa.class);
+        startActivity(intent);
+    }
+*/
+
+   private void dialogoConfirmacao() {
+       //LoginActivity = context
+       AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+       builder.setMessage("Empresa ou usuário?").setPositiveButton("Empresa", new DialogInterface.OnClickListener() {
+           @Override
+           public void onClick(DialogInterface dialog, int which) {
+               Intent intent = new Intent(getApplicationContext(), CadastroEmpresa.class);
+               startActivity(intent);
+           }
+       }).setNegativeButton("Usuário", new DialogInterface.OnClickListener() {
+           @Override
+           public void onClick(DialogInterface dialog, int which) {
+               Intent intent = new Intent(getApplicationContext(), CadastroUsuario.class);
+               startActivity(intent);
+           }
+       }).show();
+
+   }
+
 
     private void updateUiWithUser(LoggedInUserView model) {
         String welcome = getString(R.string.welcome) + model.getDisplayName();
