@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".Perfil">
 
+    <ImageView
+        android:id="@+id/fotoPerfil"
+        android:layout_width="109dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="22dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nomePerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <TextView
+        android:id="@+id/areaPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <ImageView
+        android:id="@+id/galeriaPortifolio"
+        android:layout_width="214dp"
+        android:layout_height="178dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="226dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portifólio"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/avaliacaoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/galeriaFotos"
+        android:layout_width="380dp"
+        android:layout_height="183dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="221dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
 </android.support.constraint.ConstraintLayout>
