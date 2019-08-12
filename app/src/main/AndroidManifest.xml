@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CadastroEmpresa"></activity>
+        <activity android:name=".Carregamento">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CadastroEmpresa" />
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login" />
@@ -27,11 +34,7 @@
         <activity android:name=".CadastroUsuario" />
         <activity android:name=".CadastroProposta" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
