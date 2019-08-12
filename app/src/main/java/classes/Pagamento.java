@@ -4,18 +4,38 @@ public class Pagamento {
     private int id_ususario;
     private double cpf_usuario;
     private double conta_usuario;
+    private double conta_empresa;
     private double valor_pago;
     private boolean pedido_entregue;
+    private int id_empresa;
 
     public Pagamento() {
     }
 
-    public Pagamento(int id_ususario, double cpf_usuario, double conta_usuario, double valor_pago, boolean pedido_entregue) {
+    public Pagamento(int id_ususario, double cpf_usuario, double conta_usuario, double valor_pago, boolean pedido_entregue, int id_empresa, double conta_empresa) {
         this.id_ususario = id_ususario;
         this.cpf_usuario = cpf_usuario;
         this.conta_usuario = conta_usuario;
         this.valor_pago = valor_pago;
         this.pedido_entregue = pedido_entregue;
+        this.id_empresa = id_empresa;
+        this.conta_empresa = conta_empresa;
+    }
+
+    public double getConta_empresa() {
+        return conta_empresa;
+    }
+
+    public void setConta_empresa(double conta_empresa) {
+        this.conta_empresa = conta_empresa;
+    }
+
+    public int getId_empresa() {
+        return id_empresa;
+    }
+
+    public void setId_empresa(int id_empresa) {
+        this.id_empresa = id_empresa;
     }
 
     public int getId_ususario() {

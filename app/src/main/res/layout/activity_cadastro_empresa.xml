@@ -48,10 +48,16 @@
 
     <Button
         android:id="@+id/btnCadastroEmpresa"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
         android:text="Cadastrar"
-        tools:layout_editor_absoluteX="153dp"
+
+        android:background="@drawable/round_bg"
+
         tools:layout_editor_absoluteY="638dp" />
 
     <EditText
