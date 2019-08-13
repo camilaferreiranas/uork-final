@@ -7,44 +7,12 @@
     tools:context=".CadastroEmpresa">
 
     <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nome da empresa "
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="265dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CNPJ"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="380dp" />
-
-    <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Área da empresa"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="504dp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E-mail da empresa"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="33dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Senha"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="134dp" />
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="442dp" />
 
     <Button
         android:id="@+id/btnCadastroEmpresa"
@@ -62,45 +30,49 @@
 
     <EditText
         android:id="@+id/cnpj_empresa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="360dp"
+        android:layout_height="47dp"
         android:ems="10"
+        android:hint="CNPJ "
         android:inputType="number"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteY="343dp" />
 
     <EditText
         android:id="@+id/nome_empresa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="363dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Nome da empresa"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="241dp" />
 
     <EditText
         android:id="@+id/email_empresa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="367dp"
+        android:layout_height="46dp"
         android:ems="10"
+        android:hint="E-mail da empresa"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="56dp" />
 
     <EditText
         android:id="@+id/senha_empresa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="366dp"
+        android:layout_height="43dp"
         android:ems="10"
+        android:hint="Senha"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="184dp" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="153dp" />
 
     <Spinner
         android:id="@+id/tipo_empresa"
-        android:layout_width="228dp"
-        android:layout_height="48dp"
+        android:layout_width="358dp"
+        android:layout_height="45dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="551dp" />
+        tools:layout_editor_absoluteY="511dp" />
 
 </android.support.constraint.ConstraintLayout>

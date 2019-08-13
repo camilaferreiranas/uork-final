@@ -12,10 +12,11 @@
     <ImageView
         android:id="@+id/logoCarregamento"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="518dp"
         android:layout_weight="1"
         android:gravity="top|center"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@mipmap/ic_logo_uork_round"
+        tools:srcCompat="@mipmap/ic_logo_uork" />
 
     <TextView
         android:layout_width="match_parent"

@@ -7,7 +7,6 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.uork.uork.ui.login.LoginActivity;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
