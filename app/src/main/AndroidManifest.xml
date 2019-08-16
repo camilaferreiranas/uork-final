@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".PerfilEmpresa"></activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".Carregamento">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +22,7 @@
         </activity>
         <activity android:name=".CadastroEmpresa" />
         <activity android:name=".Proposta" />
-        <activity android:name=".Perfil" />
+        <activity android:name=".PerfilUsuario" />
         <activity android:name=".PagamentoAssinatura" />
         <activity
             android:name=".Menu"
@@ -31,7 +32,7 @@
         <activity android:name=".Chat" />
         <activity android:name=".CadastroUsuario" />
         <activity android:name=".CadastroProposta" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
