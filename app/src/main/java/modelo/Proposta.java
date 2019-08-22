@@ -1,4 +1,4 @@
-package classes;
+package modelo;
 
 public class Proposta {
     private int id_proposta;

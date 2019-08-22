@@ -7,7 +7,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import classes.Proposta;
+import modelo.Proposta;
 
 public class PerfilUsuario extends AppCompatActivity {
     FirebaseDatabase firebaseDatabase;

@@ -1,6 +1,5 @@
 package com.uork.uork;
 
-import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,13 +7,12 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.firebase.FirebaseApp;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.UUID;
 
-import classes.Usuario;
+import modelo.Usuario;
 
 public class CadastroUsuario extends AppCompatActivity {
     //EditText username, password;

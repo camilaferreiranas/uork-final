@@ -10,7 +10,7 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import classes.Empresa;
+import modelo.Empresa;
 
 public class CadastroEmpresa extends AppCompatActivity {
 

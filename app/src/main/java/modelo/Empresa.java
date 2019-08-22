@@ -1,4 +1,4 @@
-package classes;
+package modelo;
 
 public class Empresa {
     private int id_empresa;

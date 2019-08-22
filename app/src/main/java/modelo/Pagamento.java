@@ -1,4 +1,4 @@
-package classes;
+package modelo;
 
 public class Pagamento {
     private int id_ususario;
