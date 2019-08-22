@@ -14,6 +14,8 @@ import classes.Empresa;
 
 public class CadastroEmpresa extends AppCompatActivity {
 
+
+
     EditText cnpj_empresa, nome_empresa, email_empresa, senha_empresa;
     Button btnCadastroEmpresa;
 
